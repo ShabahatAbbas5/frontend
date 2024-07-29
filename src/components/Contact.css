@@ -1,0 +1,59 @@
+/* Contact Us Page */
+
+#Contact {
+  text-align: center;
+  padding: 5px;
+  background-color: #f0f0f0;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+#Contact h2 {
+  color: #c00;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+#Contact p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
+#Contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#Contact label {
+  margin-bottom: 0.5em;
+}
+
+#Contact input,
+#Contact textarea {
+  padding: 10px;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+#Contact button {
+  background-color: #c00;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#Contact button:hover {
+  background-color: #900;
+}
+
+#Contact button:active {
+  background-color: #600;
+}

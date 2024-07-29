@@ -1,0 +1,40 @@
+/* Elections Page Styles */
+
+#Elections {
+  text-align: center;
+  padding: 5px;
+  background-color: #f0f0f0;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+#Elections h2 {
+  color: #c00;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+#Elections p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
+#Elections ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2em;
+}
+
+#Elections li {
+  margin-bottom: 1em;
+}
+
+#Elections a {
+  color: #c00;
+  text-decoration: none;
+}
+
+#Elections a:hover {
+  text-decoration: underline;
+}

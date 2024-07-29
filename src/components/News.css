@@ -1,0 +1,53 @@
+/* News Page Styles */
+
+#News {
+  text-align: center;
+  padding: 5px;
+  background-color: #f0f0f0;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+#News h2 {
+  color: #c00;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+#News p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
+#News ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2em;
+}
+
+#News li {
+  margin-bottom: 1em;
+}
+
+#News a {
+  color: #c00;
+  text-decoration: none;
+}
+
+#News a:hover {
+  text-decoration: underline;
+}
+
+/* News.css */
+#News .download-link {
+  background-color: #fff; /* White background */
+  padding: 15px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+#News .download-link:hover {
+  background-color: #e0908a; /* Light gray background on hover */
+}

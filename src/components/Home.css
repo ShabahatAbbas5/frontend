@@ -1,0 +1,30 @@
+/* Home Page Styles */
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.home h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.home p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/* Targeting images within the .home class */
+.home img {
+  width: 100%; /* Makes the image responsive */
+  height: auto; /* Maintains the aspect ratio */
+  max-width: 700px; /* Example max-width, adjust as needed */
+  display: block; /* Removes any default inline spacing */
+  margin: 0 auto; /* Centers the image if it's smaller than the container */
+}

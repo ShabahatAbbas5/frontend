@@ -1,0 +1,40 @@
+/* Permits Page Styles */
+
+#Permits {
+  text-align: center;
+  padding: 5px;
+  background-color: #f0f0f0;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+#Permits h2 {
+  color: #c00;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+#Permits p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
+#Permits ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2em;
+}
+
+#Permits li {
+  margin-bottom: 1em;
+}
+
+#Permits a {
+  color: #c00;
+  text-decoration: none;
+}
+
+#Permits a:hover {
+  text-decoration: underline;
+}

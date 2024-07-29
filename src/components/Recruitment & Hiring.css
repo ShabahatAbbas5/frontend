@@ -1,0 +1,40 @@
+/* Recruitment & Hiring Page Styles */
+
+#RecruitmentHiring {
+  text-align: center;
+  padding: 5px;
+  background-color: #f0f0f0;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+#RecruitmentHiring h2 {
+  color: #c00;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+#RecruitmentHiring p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
+#RecruitmentHiring ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2em;
+}
+
+#RecruitmentHiring li {
+  margin-bottom: 1em;
+}
+
+#RecruitmentHiring a {
+  color: #c00;
+  text-decoration: none;
+}
+
+#RecruitmentHiring a:hover {
+  text-decoration: underline;
+}

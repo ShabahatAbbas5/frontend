@@ -1,0 +1,40 @@
+/* Resources Page Styles */
+
+#Resources {
+  text-align: center;
+  padding: 5px;
+  background-color: #f0f0f0;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+#Resources h2 {
+  color: #c00;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+#Resources p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
+#Resources ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2em;
+}
+
+#Resources li {
+  margin-bottom: 1em;
+}
+
+#Resources a {
+  color: #c00;
+  text-decoration: none;
+}
+
+#Resources a:hover {
+  text-decoration: underline;
+}

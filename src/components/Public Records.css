@@ -1,0 +1,40 @@
+/* Public Record Page Styles */
+
+#PublicRecords {
+  text-align: center;
+  padding: 5px;
+  background-color: #f0f0f0;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+#PublicRecords h2 {
+  color: #c00;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+#PublicRecords p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
+#PublicRecords ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2em;
+}
+
+#PublicRecords li {
+  margin-bottom: 1em;
+}
+
+#PublicRecords a {
+  color: #c00;
+  text-decoration: none;
+}
+
+#PublicRecords a:hover {
+  text-decoration: underline;
+}

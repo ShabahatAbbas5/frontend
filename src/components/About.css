@@ -1,0 +1,21 @@
+/* About CSS */
+
+#About {
+  text-align: center; /* Center the text horizontally */
+  padding: 5px; /* Add padding around the content */
+  background-color: #f0f0f0; /* Optional: Set a background color */
+  max-width: 1500px; /* Limit the width of the content */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+#About h2 {
+  color: #c00;
+  font-size: 2em;
+  margin-bottom: 1em; /* Add space below the heading */
+}
+
+#About p { 
+  font-size: 1.2em;
+  line-height: 1.6; /* Adjust line spacing for readability */
+  margin-bottom: 1em; /* Add space below paragraphs */
+}

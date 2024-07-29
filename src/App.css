@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; /* Or your preferred font */
+}
+
+/* Content Wrapper */
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Make the wrapper fill the viewport height */
+}
+
+h1, h2, h3 {
+  color: #c00; /* Red headings */
+}
+
+/* Header Styles */
+header {
+  background-color: #c00; /* Red header */
+  color: #fff; /* White text */
+  padding: 1rem 0;
+  text-align: center; /* Center the logo and navigation */
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline; /* Place navigation items horizontally */
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main Content */
+main {
+  flex: 1;  /* Allow the main content to grow and take up available space */
+  display: flex; /* Enable Flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+section {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #c00; /* Red footer */
+  color: #fff; /* White text */
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.react-datepicker-wrapper{
+  width: 100% !important;
+}
+/* Additional Styling (Example) */
+.call-to-action {
+  background-color: #c00;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 5px; /* Add rounded corners */
+}
+
+.call-to-action a {
+  color: #fff;
+  text-decoration: none;
+}
